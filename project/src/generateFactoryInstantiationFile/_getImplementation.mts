@@ -95,6 +95,8 @@ export function _getImplementation(
 		throw new Error(`first parameter must be of literal type 'EnkoreJSRuntimeContext'.`)
 	}
 
+	// todo: cross check overloads?
+
 	return {
 		implementation,
 		overloads: declarations.slice(
