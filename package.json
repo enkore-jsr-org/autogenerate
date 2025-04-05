@@ -1,0 +1,20 @@
+{
+  "name": "@enkore-jsr/autogenerate",
+  "version": "0.0.0",
+  "author": "Anio Software <info@anio.software>",
+  "description": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enkore-jsr-org/autogenerate.git"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@enkore-target/js-node": "^0.0.1",
+    "@enkore-types/typescript": "^0.0.7",
+    "@enkore/core": "^0.6.4",
+    "@enkore/spec": "^0.213.0",
+    "@enkore/target-js-utils": "^0.0.2",
+    "enkore": "^0.0.16"
+  }
+}

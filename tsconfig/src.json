@@ -1,0 +1,23 @@
+{
+    "extends": "./base.json",
+    "compilerOptions": {
+        "paths": {
+            "#~src/*": [
+                "./project/src/*"
+            ],
+            "#~export/*": [
+                "./project/export/*"
+            ],
+            "#~assets/*": [
+                "./project/assets/*"
+            ]
+        }
+    },
+    "include": [
+        "../project/src/**/*",
+        "../project/export/**/*",
+        "../build/src/**/*",
+        "../build/export/**/*",
+        "../enkore.config.mts"
+    ]
+}

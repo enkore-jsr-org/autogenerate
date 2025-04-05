@@ -1,0 +1,14 @@
+{
+    "extends": "./base.json",
+    "compilerOptions": {
+        "paths": {
+            "#~assets/*": [
+                "./project/assets/*"
+            ]
+        }
+    },
+    "include": [
+        "../project/assets/**/*",
+        "../build/assets/**/*"
+    ]
+}
