@@ -5,7 +5,7 @@ import type {
 } from "@enkore-types/typescript"
 import type {Options} from "./Options.mts"
 
-export type Dependency = {
+type Dependency = {
 	key: string
 	moduleSpecifier: string
 	modulePropertyName: string
