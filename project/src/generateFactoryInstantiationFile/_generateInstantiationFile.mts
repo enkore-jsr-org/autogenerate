@@ -25,7 +25,7 @@ export function _generateInstantiationFile(options: Options): EnkoreAutogenerate
 import {createContext} from "@enkore-jsr/runtime/v0"
 import {${exportName}Factory as factory} from "./${exportName}Factory.mts"
 
-export const ${exportName} = factory(createContext({} as any))
+export const ${exportName} = factory(createContext(undefined))
 `.slice(1)
 		}
 	})
