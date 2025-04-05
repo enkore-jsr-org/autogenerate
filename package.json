@@ -14,7 +14,7 @@
     "@enkore-types/typescript": "^0.0.7",
     "@enkore/core": "^0.6.4",
     "@enkore/spec": "^0.213.0",
-    "@enkore/target-js-utils": "^0.0.2",
+    "@enkore/target-js-utils": "^0.0.4",
     "enkore": "^0.0.16"
   }
 }
